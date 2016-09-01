@@ -64,6 +64,19 @@ h3{
 	width: initial;
 }
 
+.btn-primary{
+	background-color: #999!important;
+	border: none;
+}
+
+.btn-primary{
+	background-color: #000!important;
+}
+
+.cien{
+	width:100%;
+}
+
 .footer{
 	padding: 20px 0;
 	background-color:#EFEFEF;
