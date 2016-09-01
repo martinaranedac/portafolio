@@ -1,0 +1,34 @@
+.navbar-brand > img{
+	width:50px;
+	display: inline-block;
+}
+
+.navbar{
+	min-height: 60px;
+}
+
+.navbar-default{
+	background: #fff;
+	border: none;
+	margin-bottom: 0;
+}
+
+body{
+	background-color:#EFEFEF;
+}
+
+.carousel-caption{
+	top:20px;
+	right: 60%;
+	left: 0%;
+	background: rgba(255,255,255,0.7);
+	height: 150px;
+	color:#000;
+	text-shadow: none;
+	text-align: left;
+	padding: 20px;
+}
+
+.carousel-caption h3{
+	font-size: 32px;
+}
