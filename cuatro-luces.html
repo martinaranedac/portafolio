@@ -28,35 +28,66 @@
 
 	      <ul class="nav navbar-nav navbar-right">
 	        <li><a href="proyectos.html">PROYECTOS</a></li>
-	        <li class="active"><a href="contacto.html">CONTACTO</a></li>
+	        <li><a href="contacto.html">CONTACTO</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-<div class="container contenido">
-	<div class="row">
-		<div class="col-md-6">
-			<h2>Sobre mí</h2>
-			<p>Hola, soy Martín araneda. Como pudiste ver, he realizado algunos proyectos editoriales compuestos por distintas pautas de texto, fotografía e ilustración.</br>
-			Si tienes en mente el desarrollo de algún proyecto editorial no dudes en contactarme.</p>
 
-			<form class="contacto">
-				<input type="text" name="Name" id="Name" placeholder="Nombre" />
-	
-				<input type="text" name="Email" id="Email" placeholder="Correo" />
-				
-				<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Mensaje"></textarea>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
 
-				<input class="btn btn-primary" type="submit" name="submit" value="Enviar" class="submit-button" />
-			</form>
-		</div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/cuatro-luces/01.jpg" alt="Así de simple">
+    </div>
 
-		<div class="col-md-6">
-			<img style="width:100%;" src="img/contacto-2.jpg">
-		</div>
-	</div>
+    <div class="item">
+      <img src="img/cuatro-luces/02.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img/cuatro-luces/03.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img/cuatro-luces/04.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
 </div>
+
+	<div class="container contenido">
+  		<h2>Cuatro luces para dos poemas</h2>
+
+  		<p>
+  			Cuatro luces para dos poemas contiene una serie de dibujos y xilografías captadas en del exterior durante el trayecto ida y vuelta del Metro de Valparaíso. De los dibujos se abstraen cuatro tipos de luces captadas en movimiento. La secuencia de estos momentos registrados con el tren en movimiento hacen referencia a los poemas Las Ventanas de Guillaume Apollinaire y Las Vocales de Arthur Rimbaud. 
+  		</p>
+  		<hr>
+  		<h3>Datos de la edición</h3>
+  		<ul>
+  			<li>Formato: 29x18cm</li>
+  			<li>Año: 2013</li>
+  			<li>Ilustración: Croquis y Xilografías</li>
+  		</ul>
+	</div>
 	
 <footer class="footer">
 
@@ -80,7 +111,7 @@
 			</div>
 			<div class="col-md-3">
 				<h4>Contacto</h4>
-				<a href="#"><p>martin.araneda.c@gmail.com</p></a>
+				<a href="contacto.html"><p>martin.araneda.c@gmail.com</p></a>
 			</div>
 		</div>
 	</div>

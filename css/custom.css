@@ -2,6 +2,14 @@ body{
     font-family: 'Alegreya Sans', sans-serif!important;
 }
 
+a{
+	color:#666;
+}
+
+a:hover{
+	color:#444;
+}
+
 .navbar-brand > img{
 	width:50px;
 	display: inline-block;
@@ -14,6 +22,10 @@ body{
 .navbar-default{
 	background: #fff;
 	margin-bottom: 0;
+}
+
+.navbar-nav > li > a{
+	padding-bottom: 23px;
 }
 
 body{
@@ -75,6 +87,7 @@ h3{
 
 .cien{
 	width:100%;
+	margin-bottom: 50px;
 }
 
 .footer{
@@ -89,4 +102,9 @@ h3{
 
 .footer a > li{
 	color:#888;
+}
+
+.footer a > li:hover{
+	color:#444;
+	text-decoration: none!important;
 }
