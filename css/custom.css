@@ -90,6 +90,10 @@ h3{
 	margin-bottom: 50px;
 }
 
+.carousel-inner{
+	height: 80vh;
+}
+
 .footer{
 	padding: 20px 0;
 	background-color:#EFEFEF;
