@@ -114,6 +114,12 @@ h3{
   }
 }
 
+@media (min-width: 768px) {
+  .proyectos hr {
+    display:none;
+  }
+}
+
 .footer{
 	padding: 20px 0;
 	background-color:#EFEFEF;
