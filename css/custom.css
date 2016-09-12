@@ -94,6 +94,18 @@ h3{
 	height: 80vh;
 }
 
+@media (max-width: 852px) {
+  .carousel-inner {
+    height: auto;
+  }
+}
+
+@media (max-width: 852px) {
+  .carousel-caption {
+    width: 100%;
+  }
+}
+
 .footer{
 	padding: 20px 0;
 	background-color:#EFEFEF;
